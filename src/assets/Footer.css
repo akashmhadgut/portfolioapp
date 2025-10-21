@@ -1,0 +1,13 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0d6efd; /* Your signature blue */
+  text-decoration: none;
+}

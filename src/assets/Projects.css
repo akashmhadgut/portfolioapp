@@ -1,0 +1,91 @@
+.project-card {
+  transition: all 0.5s ease; /* this overrides the next line */
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05); /* glass effect */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.1);
+
+}
+.project-card p{
+  color: black;
+}
+
+#project{
+  background: radial-gradient(circle at 50% 50%, rgba(0,183,255,0.1) 0%, rgba(0,0,0,0.85) 70%), 
+            linear-gradient(135deg, #001533 0%, #00264d 50%, #000f1a 100%);
+
+}
+
+ 
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 183, 255, 0.3); /* subtle glow */
+}
+
+/* Change paragraph color when the card is hovered */
+.project-card:hover p {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+.project-card:hover a {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+.project-img-wrapper {
+  height: 220px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  filter: brightness(0.9);
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.1);
+  filter: brightness(1);
+}
+
+/* Tech Badges */
+.tech-badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.tech-badge.html { background: #f06529; }
+.tech-badge.css { background: #2965f1; }
+.tech-badge.javascript { background: #f0db4f; color: black; }
+.tech-badge.mysql { background: #00758f; }
+.tech-badge.react { background: #61dbfb; color: black; }
+.tech-badge.bootstrap { background: #563d7c; }
+
+.tech-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0,183,255,0.5);
+}
+
+/* Card text */
+.card-text {
+  flex-grow: 1;
+  color: black;
+}
+
+/* Buttons */
+.btn-sm {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+}

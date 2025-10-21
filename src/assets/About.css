@@ -1,0 +1,15 @@
+ .skill-cards{
+    border-left: 6px solid rgba(13, 13, 216, 0.685);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-color:antiquewhite;
+ }
+ .skill-cards:hover{
+  transform: scale(1.05); 
+  background-color: rgb(233, 255, 255);
+  border-left: 6px solid rgb(106, 38, 231);
+
+ }
+ li{
+    margin:5px;
+ }
+ 
