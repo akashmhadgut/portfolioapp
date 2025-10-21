@@ -12,7 +12,7 @@ export default function Projects() {
       tech: ["HTML", "CSS", "JavaScript", "MySQL"],
       live: "#",
       code: "#",
-      image: "../src/back-video/OIP (1).webp",
+      image: "./public/OIP (1).webp",
     },
    {
   title: "Sasken IT Company Landing Page",
@@ -20,7 +20,7 @@ export default function Projects() {
   tech: ["React", "CSS", "JavaScript", "Bootstrap"],
   live: "https://saskan-templet.vercel.app/",
   code: "https://github.com/akashmhadgut/SaskanTemplet.git",
-  image: "../src/back-video/sasken.png",
+  image: "./public/sasken.png",
 },
 {
   title: "ColorCast Company Landing Page",
@@ -28,7 +28,7 @@ export default function Projects() {
   tech: ["Html", "CSS", "JavaScript", "Bootstrap"],
   live: "https://colorcrest-landing.vercel.app/",
   code: "https://github.com/akashmhadgut/colorcrest-landing.git",
-  image: "../src/back-video/colorcast.png",
+  image: "./public/colorcast.png",
 },
     {
       title: "Blogging Website",
@@ -36,7 +36,7 @@ export default function Projects() {
       tech: ["React", "Bootstrap"],
       live: "https://blogapp-topaz-seven.vercel.app/",
       code: "https://github.com/akashmhadgut/blogapp.git",
-      image: "../src/back-video/OIP.webp",
+      image: "public/OIP.webp",
     },
      {
       title: "E-commerce Website for Fashion Sales",
@@ -44,7 +44,7 @@ export default function Projects() {
       tech: ["React", "CSS", "JavaScript", "Bootstrap"],
       live: "https://shopping-cards-nu.vercel.app/",
       code: "https://github.com/akashmhadgut/ShoppingCards.git",
-      image: "../src/back-video/ecom.jpg",
+      image: "public/ecom.jpg",
     },
       
      
