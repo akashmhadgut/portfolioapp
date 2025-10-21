@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
-import { Typewriter } from 'react-simple-typewriter';
-import './about.css'
+ import './About.css'
 import { FaArrowRight, FaBootstrap, FaCss3, FaDatabase, FaGift, FaGit, FaHtml5, FaJs, FaNode, FaReact } from 'react-icons/fa6';
 import { SiExpress, SiMongodb, SiNetlify } from 'react-icons/si';
 import { VscJson } from 'react-icons/vsc';
