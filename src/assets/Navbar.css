@@ -1,0 +1,89 @@
+/* === General === */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Change hamburger icon color */
+.navbar-toggler-icon {
+  filter: invert(1); /* invert white/black */
+  /* OR use a specific color with SVG */
+}
+
+ 
+
+
+.navbar-transparent {
+  background-color: transparent !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-dark-bg {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Branding & nav link base style */
+.navbar-transparent .nav-link,
+.navbar-transparent .navbar-brand,
+.navbar-dark-bg .nav-link,
+.navbar-dark-bg .navbar-brand {
+  color: #fff !important;
+  transition: color 0.2s ease;
+}
+
+/* No underline */
+.nav-item-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect only (no underline) */
+.nav-item-link:hover {
+  color: #0d6efd !important;
+}
+
+/* Navbar Collapse Animation */
+.animate-slide {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Responsive: Small Screens === */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 1rem 0;
+  }
+
+  .navbar-collapse .nav-link {
+    display: block;
+    text-align: left;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    border-bottom: none;
+  }
+}
+
+/* Social Media Icons Hover */
+.social-links .nav-link:hover {
+  color: #0d6efd !important;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+/* Active section link style */
+.nav-item-link.active-link {
+  color: #0d6efd !important;
+  font-weight: 500;
+}
+
+

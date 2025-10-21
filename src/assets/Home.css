@@ -1,0 +1,93 @@
+.home-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  background: radial-gradient(circle at 30% 40%, rgba(0,183,255,0.2) 0%, rgba(0,0,0,0.9) 70%),
+              linear-gradient(135deg, #020024 0%, #001933 50%, #000915 100%);
+  overflow: hidden;
+  padding-top: 100px; /* Prevents overlap with fixed navbar */
+}
+
+.glow-circle {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,183,255,0.2) 0%, rgba(0,0,0,0) 70%);
+  box-shadow: 0 0 40px rgba(0,183,255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glow-circle img {
+  width: 300px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(0,183,255,0.8);
+}
+
+.hero-text h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.highlight-text {
+  color: #00b7ff;
+}
+
+.hero-text p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #00b7ff;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Responsive Fixes */
+@media (max-width: 991px) {
+  .home-section {
+    padding-top: 120px;
+    text-align: center;
+  }
+
+  .glow-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .glow-circle img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

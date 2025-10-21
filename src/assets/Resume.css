@@ -1,0 +1,174 @@
+/* === Global Section Styles === */
+#resume {
+  background-color: #1e1b4b;
+  color: #ffffff;
+  padding: 4rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Animated Icon === */
+.icon {
+  border-radius: 50%;
+  background-color: #6d28d9;
+  padding: 1rem;
+  animation: jump 1s infinite ease-in-out;
+  box-shadow: 0 4px 12px rgba(109, 40, 217, 0.5);
+  color: white;
+}
+
+/* === Animation === */
+@keyframes jump {
+  0%, 100% { transform: translateY(0); }
+  30%      { transform: translateY(-20px); }
+  50%      { transform: translateY(0); }
+  70%      { transform: translateY(-10px); }
+}
+
+/* === Shared Section Container === */
+.section-box {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* === Section Titles === */
+.section-box h4 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* === Education Section === */
+.edu {
+  background-color: rgba(109, 40, 217, 0.08);
+}
+
+.educard {
+  background-color: rgba(109, 40, 217, 0.15);
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.educard:hover {
+  background-color: rgba(109, 40, 217, 0.25);
+  color: #fff;
+}
+.year-tag {
+  font-weight: bold;
+  color: #10b981;
+  font-size: 1rem;
+}
+
+/* === Special Icon in Section Titles === */
+.speicons {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.4rem;
+  border-radius: 8px;
+  color: white;
+}
+
+/* === Skills Section === */
+.skills {
+  background-color: rgba(16, 185, 129, 0.08);
+}
+
+.skill-card {
+  background-color: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.skill-card:hover {
+  background-color: rgba(16, 185, 129, 0.22);
+  color: #ffffff;
+}
+.skill-card h6 {
+  color: #10b981;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+/* === Projects Section === */
+.projects {
+  background-color: rgba(96, 165, 250, 0.08);
+}
+
+.project-card {
+  background-color: rgba(96, 165, 250, 0.12);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.project-card:hover {
+  background-color: rgba(96, 165, 250, 0.2);
+  color: #fff;
+}
+
+/* === Certifications Section === */
+.certifications {
+  background-color: rgba(253, 224, 71, 0.08);
+}
+
+.certification-card {
+  background-color: rgba(253, 224, 71, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.certification-card:hover {
+  background-color: rgba(253, 224, 71, 0.2);
+  color: #ffffff;
+}
+
+/* === Button Styling === */
+.btn-outline-primary {
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  transition: all 0.3s ease;
+}
+.btn-outline-primary:hover {
+  background-color: #8b5cf6;
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+}
+
+/* === Typography Clean-up === */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 0.95rem;
+}
+strong {
+  font-weight: 600;
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 768px) {
+  .year-tag {
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: right;
+  }
+
+  .icon {
+    padding: 0.8rem;
+    font-size: 80px;
+  }
+
+  .section-box {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
