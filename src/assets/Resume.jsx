@@ -140,7 +140,7 @@ function Resume() {
           <a
             className="btn btn-outline-primary btn-lg px-4 py-2"
             href="/AkashMhadgut_Cv.pdf"
-            download
+            download="AkashMhadgut_Resume.pdf"
           >
             📥 Download Resume
           </a>

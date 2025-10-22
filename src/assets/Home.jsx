@@ -5,6 +5,8 @@ import { FaUser } from 'react-icons/fa6';
 import Nav from "react-bootstrap/Nav";
 import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { Typewriter } from 'react-simple-typewriter';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Home() {
   return (
@@ -15,8 +17,12 @@ function Home() {
           {/* LEFT: Profile Image */}
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <div className="hero-image">
-              <div className="glow-circle mx-auto">
-                <img src="./profilepic.jpg" alt="Profile" className="img-fluid m-5" />
+              <div className="glow-circle mx-auto ">
+                <LazyLoadImage
+                  src="/profilepic.jpg"
+                  alt="Profile"
+                  className="img-fluid m-5"
+                 />
               </div>
             </div>
           </div>

@@ -1,7 +1,9 @@
 import React from "react";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Projects.css";
 import { FaExternalLinkAlt, FaCode, FaTasks } from "react-icons/fa";
 import { FaFolderOpen } from "react-icons/fa6";
+import { LazyLoadImage } from "react-lazy-load-image-component";
  
 
 export default function Projects() {
@@ -62,7 +64,7 @@ export default function Projects() {
             <div className="col" key={i}>
               <div className="card h-100 project-card glass-card ">
                 <div className="project-img-wrapper">
-                  <img src={p.image} alt={p.title} className="project-img" />
+                  <LazyLoadImage src={p.image} alt={p.title}   className="project-img" />
                 </div>
 
                 <div className="card-body d-flex flex-column">

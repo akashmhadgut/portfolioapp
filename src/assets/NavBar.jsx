@@ -67,7 +67,7 @@ function NavBar() {
               <Nav.Link
                 key={section}
                 href={`#${section}`}
-                className="ps-3 nav-item-link"
+                className="ps-3 nav-item-link mx-2 my-1"
                 onClick={() => setMenuOpen(false)}
                 active={false} // prevents Bootstrap .active class
                 style={{
@@ -93,15 +93,17 @@ function NavBar() {
             <Nav.Link href="https://x.com/AkashMhadg56099?t=t8HuYZ7GGWpK4Xr_FbvcEA&s=09" target="_blank" className="ps-3">
               <FaXTwitter />
             </Nav.Link> */}
-             <Nav.Link href="https://x.com/AkashMhadg56099?t=t8HuYZ7GGWpK4Xr_FbvcEA&s=09" target="_blank" className="ps-3">
-               <a
+             {/* <Nav.Link href="https://x.com/AkashMhadg56099?t=t8HuYZ7GGWpK4Xr_FbvcEA&s=09" target="_blank" className="ps-3">
+              
+            </Nav.Link> */}
+
+             <a
             className="btn btn-outline-primary btn-lg px-4 py-2"
-            href="./AkashMhadgut_Cv.pdf"
-            download
+            href="src/AkashMhadgut_Cv.pdf"
+             download="AkashMhadgut_Resume.pdf"
           >
             📥 Download CV
           </a>
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
