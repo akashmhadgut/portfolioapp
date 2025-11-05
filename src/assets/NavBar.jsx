@@ -96,7 +96,7 @@ function NavBar() {
              <Nav.Link href="https://x.com/AkashMhadg56099?t=t8HuYZ7GGWpK4Xr_FbvcEA&s=09" target="_blank" className="ps-3">
                <a
             className="btn btn-outline-primary btn-lg px-4 py-2"
-            href="src/AkashMhadgut_Cv.pdf"
+            href="/AkashMhadgut_Cv.pdf"
             download
           >
             📥 Download CV
