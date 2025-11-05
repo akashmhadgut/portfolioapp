@@ -54,8 +54,6 @@ export default function Projects() {
   code: "https://github.com/akashmhadgut/realstateproject.git",
   image: "src/back-video/looha.png", 
 }
-
-      
      
   ];
 
