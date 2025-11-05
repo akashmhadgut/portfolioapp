@@ -16,7 +16,7 @@ function Home() {
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <div className="hero-image">
               <div className="glow-circle mx-auto">
-                <img src="src/profilepic.jpg" alt="Profile" className="img-fluid m-5" />
+                <img src="/back-video/profilepic.jpg" alt="Profile" className="img-fluid m-5" />
               </div>
             </div>
           </div>
