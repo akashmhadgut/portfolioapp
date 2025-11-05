@@ -52,7 +52,7 @@ export default function Projects() {
   tech: ["React", "Tailwind CSS", "JavaScript"],
   live: "https://realstateproject-eight.vercel.app/",
   code: "https://github.com/akashmhadgut/realstateproject.git",
-  image: "/back-video/looha.jpg", 
+  image: "src/back-video/looha.png", 
 }
 
       
