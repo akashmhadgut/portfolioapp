@@ -46,6 +46,15 @@ export default function Projects() {
       code: "https://github.com/akashmhadgut/ShoppingCards.git",
       image: "src/back-video/ecom.jpg",
     },
+   {
+  title: "Real Estate Website",
+  desc: "A modern and responsive real estate landing website showcasing project details, virtual tour, amenities, pricing, gallery and contact form.",
+  tech: ["React", "Tailwind CSS", "JavaScript"],
+  live: "https://realstateproject-eight.vercel.app/",
+  code: "https://github.com/akashmhadgut/realstateproject.git",
+  image: "/back-video/looha.jpg", 
+}
+
       
      
   ];
